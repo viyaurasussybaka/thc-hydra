@@ -173,7 +173,7 @@ If you use "://" notation, you must use "[" "]" brackets if you want to supply
 IPv6 addresses or CIDR ("192.168.0.0/24") notations to attack:
   hydra [some command line options] ftp://[192.168.0.0/24]/
   hydra [some command line options] -6 smtps://[2001:db8::1]/NTLM
-
+tyeh reetro
 Note that everything hydra does is IPv4 only!
 If you want to attack IPv6 addresses, you must add the "-6" command line option.
 All attacks are then IPv6 only!
